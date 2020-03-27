@@ -1,0 +1,15 @@
+name: SMPUtils
+version: 1.0
+main: me.doogdoog.smputils.SMPUtilsPlugin
+description: SMPUtils offers basic survival quality-of-life features including one-player sleeping, coordinate sharing, dog petting, and more.
+api-version: 1.15
+commands:
+  saycoords:
+    usage: /saycoords
+    description: Say your coordinates in chat.
+  tellcoords:
+    usage: /tellcoords <recipients>
+    description: Tell your coordinates to 1 or more friends.
+  wakeall:
+    usage: /wakeall
+    description: Wake everyone up.
